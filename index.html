@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Vyacheslav Ostapenko || Proximet</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+      <!--   <link type="text/css" rel="stylesheet" href="normalize.css" /> -->
+        <link type="text/css" rel="stylesheet" href="reset.css" />
+        <link type="text/css" rel="stylesheet" href="style.css" />
+        <link type="text/css" rel="stylesheet" href="responsive.css" />	
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/menu.js"></script>
+
+        <!-- =================FLEXISLIDER========================-->
+        <link rel="stylesheet" href="flexslider.css" type="text/css">
+		<script src="jquery.flexslider.js"></script>
+
+		<script type="text/javascript">
+			$(window).load(function() {
+			    $('.flexslider').flexslider();
+			});
+		</script>
+
+		<!-- [if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+
+
+
+</head>
+
+<body>
+	<!-- ==========================================
+					 Logo + Menu 
+	============================================-->
+	<header>
+		<div id="headerWrapper">
+			<div id="logo">
+				<a href="index.html"><img src="img/logo.png"  alt="Logo"></a>
+			</div>
+
+			<div id="menu">
+				<ul>
+					<li><a href="#"><span class='spase'><img src="img/home.png" alt="Home"></span>Home</a></li>
+					<li><a href="#"><span class='spase'><img src="img/about.png" alt="About"></span>About</a></li>
+					<li><a href="#"><span class='spase'><img src="img/portfolio.png" alt="Portfolio"></span>Portfolio</a>
+						<ul>
+							<li><a href="#">Portfolio Gallery</a></li>
+						</ul>
+					</li>
+					<li><a href="#"><span class='spase'><img src="img/blog.png" alt="Blog"></span>Blog</a>
+						<ul>
+							<li><a href="#">Single Post</a></li>
+						</ul>
+					</li>
+					<li><a href="#"><span class='spase'><img src="img/features.png" alt="Features"></span>Features</a></li>
+					<li><a href="#"><span class='spase'><img src="img/contact.png" alt="Contact"></span>Contact</a></li>
+				</ul>
+			</div>
+			<!-- ====="Drop-down" menu for smaller screen widths ======-->
+			<form id="menu-responsive">
+	          <select>
+	            <option value="">Navigation</option>
+	            <option value="index.html">Home</option>
+	            <option value="about.html">About</option>
+	            <option value="portfolio.html">Portfolio</option>
+	            <option value="gallery.html">Portfolio Gallery</option>
+	            <option value="blog.html">Blog</option>
+	            <option value="singleblog.html">Single Post</option>
+	            <option value="features.html">Features</option>
+	            <option value="contact.html">Contact</option>
+	          </select>
+	        </form>
+
+	    </div>
+	</header>
+
+	<!-- ==================================================
+						SLIDER 
+	====================================================-->
+
+		<div id="slider" class="flexslider">
+			<ul class="slides">
+				<li><img id='s1' src="img/4.jpg" alt="slider image">
+					<p class="flex-caption">Welcome to Vyacheslav Ostapenko Site</p>
+				</li>
+				<li><img id='s2' src="img/3.jpg" alt="slider image"></li>
+				<li><img id='s3' src="img/6.jpg" alt="slider image"></li>
+			</ul>
+		</div>
+
+	<!-- ==================================================
+						TEXT CONTAINER 
+	====================================================-->
+	<div class="blankSeparator"></div>
+
+	<div id="textContainer">
+	  	<div class="grid-container">
+		    <div class="grid-4">
+		    	<h2>Front-end Developer</h2>
+		    	<p> I don't like sloppy work that's why I create every single design with precision. At first, it's me who has to be satisfied with my work, then can customer see it. I would never give my clients something which I'm not satisfied with.</p>
+		    </div>
+		      
+		    <div class="grid-4">
+		    	<h2>Photographer</h2>
+			        <p>Photography is what I enjoy during my free time. Capturing moments that would otherwise be forgotten, making precious memories is actually more than just a hobby but more of a passion. Most of all I like photographing kids. To see some of my pictures, <a href="http://ostapenko-photo.com">click here</a>.</p>
+		    </div>
+		      
+		    <div class="grid-4">
+		        <h2>My Resume</h2>
+		        <p>If you feel like you want to know more about me and my work experience please feel free to <a href=http://ostapenko-photo.com/resume.pdf>download my resume</a>. </p>
+		    </div>
+	  	</div>
+	</div>
+  		
+		
+
+	<!-- ==================================================
+						OUR CLIENTS
+	====================================================-->
+	<div class=grid-container>
+		<div class="clinetsSeparator"></div>
+		<div class="ourClients grid-container">
+		  <h2>Our Clients</h2>
+		  	<div class="grid-2"> <img src="img/client1.jpg" alt=""> </div>
+		  	<div class="grid-2"> <img src="img/client2.jpg" alt=""> </div>
+		  	<div class="grid-2"> <img src="img/client3.jpg" alt=""> </div>
+		  	<div class="grid-2"> <img src="img/client4.jpg" alt=""> </div>
+		  	<div class="grid-2"> <img src="img/client5.jpg" alt=""> </div>
+		  	<div class="grid-2"> <img src="img/client6.jpg" alt=""> </div>	
+		</div>
+		<div class="clinetsSeparator"></div>
+	</div>
+
+	<!-- ==================================================
+						THREE BOXES
+	====================================================-->	
+
+	<div id="threeBoxes" class="grid-container">
+		<div id="box1" class="grid-4">
+			<div class="boxes">
+				<img src="img/1.png" alt="">
+			    <h3>Natural beauty</h3>
+			    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			    <a class="aThreeBoxes" href="#">+ Learn more</a>
+		    </div>
+		</div>
+		<div id="box2" class="grid-4">
+			<div class="boxes">
+			 	<img src="img/2.png" alt="">
+			    <h3>Natural beauty</h3>
+			    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			    <a class="aThreeBoxes" href="#">+ Learn more</a>
+			</div>    
+		</div>
+		<div id="box3" class="grid-4">
+			<div class="boxes">
+				<img src="img/3.png" alt="">
+			    <h3>Natural beauty</h3>
+			    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			    <a class="aThreeBoxes" href="#">+ Learn more</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="boxesSeparator"></div>
+
+	<!-- ==================================================
+						FOOTER
+	====================================================-->	
+	<footer>
+		<div id="footerContainer" class="grid-container">
+			<div class="grid-3"><h3>LAST TWEETS</h3></div>
+
+			<div class="grid-3"><h3>BLOG ROLL</h3>
+				<ul>
+					<li class="line"><a href="#" title="">Development Blog</a></li>
+					<li class="line"><a href="#" title="">New Freebies</a></li>
+					<li class="line"><a href="#" title="">Themeforest Theme</a></li>
+					<li class="line"><a href="#" title="">Design News</a></li>
+					<li class="line"><a href="#" title="">WordPress Theme</a></li>
+				</ul>
+			</div>
+			<div class="grid-3"><h3>ARCHIVE</h3>
+				<ul>
+					<li class="line"><a href="#" title="">Jan 2015</a></li>
+					<li class="line"><a href="#" title="">Dec 2014</a></li>
+					<li class="line"><a href="#" title="">Now 2014</a></li>
+					<li class="line"><a href="#" title="">Oct 2014</a></li>
+					<li class="line"><a href="#" title="">Sep 2014</a></li>
+				</ul>
+			</div>
+			<div class="grid-3"><h3>ABOUT</h3>
+				<p>Proximet is responsive, simple and clean template with a lot attention to detail. Get it now!</p>
+				<p>Visit Vyacheslav Ostapenko wesite <a href = "http://www.ostapenko-photo.com/portfolio.html">here</a></p>
+			</div>
+		</div>
+
+	<!-- ==================================================
+						CopyRight container
+	====================================================-->	
+
+		<div id="copyrightContainer">
+			<div class="grid-container">
+			  	<div class="grid-10">
+			      <p class="copyright">© Copyright 2012. "Proximet" by All rights reserved.</p>
+			    </div>
+			    <div class="grid-2">
+			        <ul class="socials" id="socials">
+			          <li><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
+			          <li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
+			          <li><a href="#"><img src="img/google.png" alt="Google"></a></li>
+			          <li><a href="#"><img src="img/dribbble.png" alt="Dribbble"></a></li>
+			        </ul>
+			    </div>
+			</div>
+		</div>
+	</footer>	
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+/*********************************
+		Screen width<900 
+*********************************/
+@media screen and (max-width: 960px){
+	#headerWrapper,
+	.grid-container{
+		max-width: 780px;
+	}
+
+	#menu ul li a {
+		padding: 55px 10px 45px 10px
+	}
+
+	.flex-caption {
+		display: none;
+	}
+
+/*********************************
+		Screen width<780
+*********************************/
+@media screen and (max-width: 780px){
+	
+	#menu{
+		display: none;
+	}
+
+	#headerWrapper,
+	.grid-container,
+	.grid-1,
+	.grid-2, 
+	.grid-3, 
+	.grid-4, 
+	.grid-5, 
+	.grid-6, 
+	.grid-7, 
+	.grid-8, 
+	.grid-9, 
+	.grid-10,
+	.grid-11,
+	.grid-12{ 
+		width: 460px; 
+	}
+
+	.grid-container [class^="grid-"] {
+		margin-left:0;
+		margin-right: 0;
+	}
+
+	#logo{
+		display: block;
+		float:none;
+	}
+	#menu-responsive{
+		display: block;
+	}
+
+	#menu-responsive select {
+		width: 420px;
+		padding: 10px;
+		outline: none;
+		border: none;
+		overflow: hidden;
+		font: 12px Arial, Helvetica, sans-serif;
+		margin-top: 10px;
+		width: 100%;
+		max-width: 100%;
+		display: block;
+	}
+
+	header{
+		height:171px;
+	}
+
+	#logo{
+		margin-bottom:20px;
+	}
+
+/*********************************
+Screen width<480
+*********************************/
+@media screen and (max-width: 480px){
+	
+	#menu{
+		display: none;
+	}
+
+	#headerWrapper,
+	.grid-container,
+	.grid-1,
+	.grid-2, 
+	.grid-3, 
+	.grid-4, 
+	.grid-5, 
+	.grid-6, 
+	.grid-7, 
+	.grid-8, 
+	.grid-9, 
+	.grid-10,
+	.grid-11,
+	.grid-12{
+		width: 300px;
+	}
